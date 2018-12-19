@@ -1,5 +1,5 @@
 ::selection {
-    background: #1808f0;
+    background: #1100fa;
 }
 html, body {
     width: 100%;
@@ -82,6 +82,10 @@ body {
     font-size: 35px !important;
 }
 
+.profilePic {
+    border-radius: 150px !important
+}
+
 #sidenav {
     height: 100%;
     width: 50px;
@@ -89,7 +93,7 @@ body {
     z-index: 9;
     top: 0;
     left: 0;
-    background-color: #281af0;
+    background-color: #1100ff;
     opacity: 0.8;
     overflow-x: hidden;
     transition: 0.3s;
