@@ -26,7 +26,7 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "Welcome to my website built with FTW (Fake Terminal Website)! :)",
+        welcome: "༼ つ ◕_◕ ༽つ C|_| this website is built with FTW (Fake Terminal Website)! \nSupport this page using Brave, you can send me some tip ㋡.",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.",
         welcome_file_name: "welcome_message.txt",
         invalid_command_message: "<value>: command not found.",
@@ -67,13 +67,14 @@ var files = (function () {
         }
     };
     Singleton.defaultOptions = {
-        "About me.txt": "This website was made using only pure JavaScript with no extra libraries.\nI made it dynamic so anyone can use it, just download it from GitHub and change the config text according to your needs.\nIf you manage to find any bugs or security issues feel free to email me: luisbraganca@protonmail.com",
-        "Projects.txt": "First, go to js/main.js and replace all the text on both singleton vars.\n- configs: All the text used on the website.\n- files: All the fake files used on the website. These files are also used to be listed on the sidenav.\nAlso please notice if a file content is a raw URL, when clicked/concatenated it will be opened on a new tab.\nDon't forget also to:\n- Change the page title on the index.html file\n- Change the website color on the css/main.css\n- Change the images located at the img folder. The suggested sizes are 150x150 for the avatar and 32x32/16x16 for the favicon.",
-        "Contact.txt": "wimeleth85@gmail.com",
+        "About_me.txt": "Curious by nature.\nSince I was a child, I have enjoyed dismantling everything around me to see what was inside and understand how it worked... sometimes it went back to the way it was, but other times it never worked again.\nI'm not one of those who believe that things work like magic, if not that someone knows how to do that magic, I like to see it in action and if I can, learn to do it myself. \nI never showed an interest in football, politics or cars, but computers drove me crazy. Watching the machines and trying to understand the processes and mechanisms to even get to reproduce them, hence the Hardware became my main interest.\n To assemble equipments, to balance them, to carry out tests or tests to optimize to the maximum their performance through the Overclock even custom liquid refrigerations.\nOver time, the hardware became too short for me and I became interested in the software. It was at that moment when I discovered that I had a whole world to explore and then came Ethereum, it crossed my path, I saw how a decentralized system was able to work better than a centralized one. Since then, I haven't stopped learning, every day there is something new to investigate, news of updates, interesting projects... more to learn and try.\nI'm passionate about security and a strong advocate of Internet privacy.\nIn these times of exposure to private life I prefer to stay out, my private life isn't in the public domain.\nNow, from the Meetup of Ethereum Seville I try to help anyone who shows a certain interest in discovering, understanding, knowing and using this decentralized system. From our coworking La Colmena we can do it, so I invite you and I motive to open the doors to knowledge.\nI'm also a restless maker and a fan of aquariums. ",
+        "Experience.txt": ">Junior Software Developer:\n|- Web developer with CSS, JS, Bootstrap and Bulma. \n>Junior Sysadmin: \n|- Ansible playook development. \n|- Resolution of incidents at level 1 and 2. \n|- Linux system administrator (Ubuntu Server).\n|- Firewall management and administration with IPTables. \n|- Providers: Google Cloud, Digital Ocean, AWS, Hetzner and Scaleway. \n|- Management of web services: Apache, Nginx. \n>Ethereum: \n|- Proof of concepts. \n|- Improvements and performance in specialized hardware. \n|- ENS: Domains acquisition and management. \n|- Nodes: Installation of nodes with differents languages, light client and full nodes supported.\n|- Swarm: Swarm installation and web provisioning.\n>Cosmos: \n|- Installation and configuration of validator and sentry nodes. \n|- Virtualization and host security. \n>Polkadot: \n|- Installation and configuration of validator nodes. \n|- Virtualization and host security.\n>Community Organizer of Ethereum Seville: \n|- Organizations of events.\n|- Knowledge promotion.\n|- Content creation for conferences and workshops.\n>Volunteer Staff: \n|- ETHBerlin.\n|- DevCon4(Ethereum).",
+        "Contact.txt": "You can contact me by email at wimeleth85@gmail.com",
         "Github.txt": "https://github.com/wimel",
         "Medium.txt": "https://medium.com/@wimel",
         "Twitter.txt": "https://twitter.com/wimel85",
         "Keybase.txt": "https://keybase.io/wimel",
+        "Telegram.txt": "https://telegram.me/wimel85",
         "Linkedin.txt": "https://www.linkedin.com/in/angelsvq"
     };
     return {

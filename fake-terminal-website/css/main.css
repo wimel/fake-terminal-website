@@ -78,19 +78,16 @@ body {
     position: absolute !important;
     padding: 2px !important; 
     top: 0 !important;
-    right: 7px !important;
+    right: 10px !important;
     font-size: 35px !important;
 }
 
-.profilePic {
-    border-radius: 150px !important
-}
 
 #sidenav {
     height: 100%;
     width: 50px;
     position: fixed;
-    z-index: 9;
+    z-index: 20;
     top: 0;
     left: 0;
     background-color: #1100ff;
@@ -102,11 +99,12 @@ body {
 #sidenav img {
     display: block;
     position: absolute;
-    left: 50%;
+    left: 40%;
     transform: translateX(-50%);
     bottom: 100px;
     transition: 0.3s;
     opacity: 0;
+    border-radius: 150px;
 }
 
 #sidenav img:focus {
@@ -114,7 +112,7 @@ body {
 }
 
 #sidenav button {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 82px;
     cursor: pointer;
     text-decoration: none;
     font-size: 15pt;
@@ -133,7 +131,7 @@ body {
         font-size: 11pt;
     }
     #sidenav {
-       padding-top: 15px;
+       padding-top: 55px;
    }
     #sidenav a {
        font-size: 13px;
